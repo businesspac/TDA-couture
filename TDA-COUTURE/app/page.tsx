@@ -1,15 +1,12 @@
-// app/page.tsx
+import Navbar from "@/components/Navbar";
 import HeroAtelier from "@/components/HeroAtelier";
 import BespokeMeasurement from "@/components/BespokeMeasurement";
-import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <main>
       <Navbar />
       <HeroAtelier />
-      
-      <!-- Optional: Insert Fabric Showcase / 3D Configurator UI Here -->
       
       <BespokeMeasurement />
       
