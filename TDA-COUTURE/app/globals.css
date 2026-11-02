@@ -15,7 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Custom Scrollbar for that luxury feel */
+/* Custom Luxury Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }
@@ -27,13 +27,7 @@ body {
   border-radius: 3px;
 }
 
-/* Text Selection Color */
 ::selection {
   background: #B8975A;
   color: #0B0B0C;
-}
-
-/* Smooth scroll fallback */
-html {
-  scroll-behavior: smooth;
 }
